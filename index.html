@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MCSweatShop Wiki</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to This HORRIBLE wiki</h1>
+        <p>Yes, I have a lot of stuff to implement I'm currently working on the webpage but i want the mod out so...</p>
+        <code>
+          {
+            "color": {
+              "r": 120,
+              "g": 190,
+              "b": 191
+            },
+            "maxItems": -1,
+            "maxDifferentItems": 1,
+            "differentiateByNBT": false,
+            "whitelist": [],
+            "dropItems": false
+
+          }
+          </code>
+          <p>this is for the Pouches and Bundles mod. This is an example of all possible keys able to be used in a pouch json file.
+            the directory for pouches is <code>data/&#x3c;namespace&gt;/pouches/yourpouch.json</code>. 
+          </p>
+          <p>
+            Note: -1 just means its infinite            
+          </p>
+          <p>  
+            color: changes the color of the stting around the pouch.
+          </p>
+          <p>
+            maxItems: the maximum amount of items in a pouch.
+          </p>
+          <p>
+            maxDifferentItems: this is the maximum amount of different Items. for example of maxItems is -1 but maxDifferentItems is 2 you can have 500 diamons and 300 gold,<br>
+            &nbsp;&nbsp;however, you canNOT have 20 emeralds, 20 diamonds, and 20 gold since there is more than 2 types of items, only 2 of those three items will be able to be in.
+          </p>
+          <p>
+            differentiateByNBT: if stuff like an enchantedsword and a regular sword should count as different items.
+          </p>  
+          <p> 
+            whitelist: Excepts both tags and items, however when left empty excepts any item.
+          </p>
+          <p>
+            dropItems: when right clicking in the air if the pouch should drop the next available items.
+          </p>
+            To get your bag the is a /pouch command.
+
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
