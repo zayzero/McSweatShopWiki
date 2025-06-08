@@ -3,8 +3,9 @@ body {
     color: rgb(134, 168, 122);
     /* border-color: ; */
 }
-code {
+code, .code {
     background-color: rgb(9, 9, 68);
     color: darkkhaki;
+    width: max-content;
     /* border-color: ; */
 }
